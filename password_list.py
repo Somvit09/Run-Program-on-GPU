@@ -15,7 +15,7 @@ def get_password_list_optimized():
                 
                 for password_tuple in password_generator:
                     password = ''.join(password_tuple)
-                    print(password)
+                    #print(password)
                     batch.append(password + '\n')
                     
                     # Write passwords in batches
